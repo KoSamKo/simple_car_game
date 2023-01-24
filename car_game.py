@@ -18,16 +18,16 @@ while True:
         if started:
             print("car is already started")
         else:
-            started = True
             print("car started")
+            started = True
     elif command == "stop":
         if not started:
             print("car is already stopped")
         else:
-            started = False
             print("car stopped")
+            started = False
     elif command == "quit":
-        print("quit game")
+        print("you quit the game :-)")
         break
     else:
         print("Insert valid value please!")
